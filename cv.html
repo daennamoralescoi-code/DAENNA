@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daenna F. Morales | CV</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 35px 15px;
+      background: #eee8f3;
+      color: #26202b;
+      font: 14px/1.65 Arial, Helvetica, sans-serif;
+    }
+    .cv {
+      max-width: 850px;
+      margin: auto;
+      padding: 45px;
+      background: #fff;
+      box-shadow: 0 10px 40px rgba(35,10,50,.14);
+    }
+    .cv-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+      padding-bottom: 25px;
+      border-bottom: 3px solid #7d35b9;
+    }
+    .cv-header img, .photo-placeholder {
+      width: 115px;
+      height: 115px;
+      border-radius: 50%;
+      border: 3px solid #8d3dff;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .cv-header img { display: none; }
+    .photo-placeholder {
+      display: grid;
+      place-items: center;
+      color: #7d35b9;
+      background: #f1e6fa;
+      font-size: 11px;
+      font-weight: bold;
+    }
+    h1 { margin: 0; font-size: 30px; line-height: 1.25; }
+    .cv-title { color: #7d35b9; font-weight: bold; margin-top: 6px; }
+    .contact { color: #5f5667; margin: 8px 0 0; overflow-wrap: anywhere; }
+    section { margin-top: 25px; }
+    h2 {
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #d9c6e7;
+      color: #7d35b9;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    h3 { margin: 12px 0 2px; font-size: 14px; }
+    p { margin: 4px 0; }
+    ul { margin: 5px 0; padding-left: 22px; }
+    li { margin-bottom: 5px; }
+    .date { color: #65596e; font-size: 12px; }
+    .print-row { text-align: center; margin: 20px; }
+    .print-row button {
+      border: 0;
+      border-radius: 8px;
+      padding: 11px 18px;
+      color: #fff;
+      background: #7d35b9;
+      cursor: pointer;
+    }
+    @media (max-width: 600px) {
+      .cv { padding: 23px; }
+      .cv-header { flex-direction: column; text-align: center; }
+      h1 { font-size: 25px; }
+    }
+    @media print {
+      body { padding: 0; background: #fff; }
+      .cv { max-width: none; box-shadow: none; padding: 20px; }
+      .print-row { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv">
+    <header class="cv-header">
+      <div>
+        <img id="cvProfile" alt="Daenna F. Morales">
+        <div id="photoPlaceholder" class="photo-placeholder">PROFILE PHOTO</div>
+      </div>
+      <div>
+        <h1>DAENNA F. MORALES</h1>
+        <p class="cv-title">Computer Science Student</p>
+        <p class="contact">daennamorales06@gmail.com</p>
+        <p class="contact">San Andres Bukid, Manila</p>
+      </div>
+    </header>
+
+    <section>
+      <h2>Profile</h2>
+      <p>
+        I am a student studying Bachelor of Science in Computer Science.
+        I am eager to learn new things and improve my skills. I work well
+        with others and am always ready to help. I want to gain my first
+        work experience and be part of a good team. I am excited to start
+        my career and do my best to contribute.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <h3>Elementary School</h3>
+      <p>Fernando Ma. Guerrero Elementary School</p>
+      <p class="date">2012–2018 · Completed requirements for elementary school</p>
+
+      <h3>Junior High School</h3>
+      <p>Mariano Marcos Memorial High School</p>
+      <p class="date">2018–2022 · Completed requirements for junior high school</p>
+
+      <h3>Senior High School · ICT Strand</h3>
+      <p>Philippine Christian University</p>
+      <p class="date">2022–2024 · Information and Communications Technology</p>
+
+      <h3>Bachelor of Science in Computer Science</h3>
+      <p>Philippine Christian University – Manila</p>
+      <p class="date">Present</p>
+    </section>
+
+    <section>
+      <h2>Awards and Recognitions</h2>
+      <ul>
+        <li><strong>Dean's Lister</strong> — Philippine Christian University – Manila, S.Y. 2024–2025</li>
+        <li><strong>With High Honors</strong> — Philippine Christian University – Manila, Grade 12, S.Y. 2023–2024</li>
+        <li><strong>With Honors</strong> — Philippine Christian University – Manila, Grade 11, S.Y. 2022–2023</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Organization Experience</h2>
+      <h3>Secretary — PCU SCITECH</h3>
+      <p class="date">Third Year · Currently Serving</p>
+      <p>
+        Supports organization activities through documentation, keeping
+        records of meeting discussions, organizing important information,
+        and helping communicate updates among members. This role helps
+        strengthen organizational skills, teamwork, accountability, and
+        professional communication.
+      </p>
+    </section>
+
+    <section>
+      <h2>Language</h2>
+      <p>English, Filipino</p>
+      <ul>
+        <li><strong>Korean</strong> — Reading: Native Proficiency; Writing: Basic Proficiency; Hangul</li>
+        <li><strong>Japanese</strong> — Reading: Basic Proficiency (Hiragana &amp; Katakana)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Computer Skills</h2>
+      <ul>
+        <li>Microsoft Word, Excel (simple formulas and sorting), and PowerPoint</li>
+        <li>Google Docs, Sheets, and Slides</li>
+        <li>Gmail, Zoom, and Microsoft Teams</li>
+        <li>Basic experience with Canva for simple graphics, flyers, and social media materials</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Seminars / Trainings Attended</h2>
+      <h3>Planning for Progress: Time Management for College Success</h3>
+      <p class="date">April 28, 2025</p>
+
+      <h3>Building the Future: Real-World Tools for IT and CS Students</h3>
+      <p class="date">September 28, 2025</p>
+
+      <h3>The Culture Industry: Enlightenment as Mass Deception</h3>
+      <p class="date">November 21, 2025</p>
+
+      <h3>Responsible Use of AI in Education: Its Influence on Student Growth and Character in a Future-Proof Digital World</h3>
+      <p class="date">March 04, 2026</p>
+    </section>
+
+    <section>
+      <h2>Activities and Interests</h2>
+      <p>Cheerdance during senior high school at Philippine Christian University; hip-hop during second year of college; singing.</p>
+    </section>
+  </div>
+
+  <div class="print-row">
+    <button type="button" onclick="window.print()">Print / Save as PDF</button>
+  </div>
+
+  <script>
+    const DB_NAME = "DaennaPortfolioDatabase";
+    const DB_VERSION = 1;
+    const STORE_NAME = "images";
+
+    const request = indexedDB.open(DB_NAME, DB_VERSION);
+
+    request.onsuccess = event => {
+      const db = event.target.result;
+
+      if (!db.objectStoreNames.contains(STORE_NAME)) {
+        db.close();
+        return;
+      }
+
+      const transaction = db.transaction(STORE_NAME, "readonly");
+      const getRequest = transaction.objectStore(STORE_NAME).get("profile");
+
+      getRequest.onsuccess = () => {
+        const file = getRequest.result;
+        if (!file) return;
+
+        const image = document.getElementById("cvProfile");
+        image.src = URL.createObjectURL(file);
+        image.style.display = "block";
+        document.getElementById("photoPlaceholder").style.display = "none";
+      };
+
+      db.onversionchange = () => db.close();
+    };
+
+    request.onerror = () => console.warn("Could not open the saved profile photo.");
+  </script>
+</body>
+</html>
